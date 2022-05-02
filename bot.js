@@ -1017,7 +1017,7 @@ function getAddressBalances(address) {
 }
 
 // CREATE SERVER (USEFUL FOR CLOUD PLATFORMS)
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 5000;
 server.listen(port, () => console.log(`Listening on port ${port}`));
 
 
